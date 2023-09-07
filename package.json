@@ -1,0 +1,13 @@
+{
+  "name": "images",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate_manifest.js",
+  "scripts": {
+    "generateManifest": "node ./generateManifest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
