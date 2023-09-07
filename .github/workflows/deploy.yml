@@ -18,6 +18,8 @@ jobs:
       - name: Build manifest
         run: 'npm run generateManifest'
       - uses: actions/upload-pages-artifact@v2
+        with:
+          path: 'images'
 
   # Deploy job
   deploy:
